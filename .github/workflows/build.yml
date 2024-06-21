@@ -27,6 +27,7 @@ jobs:
           - rock-5a
           - rock-5-itx
           - orangepi-5
+          - orangepi-5b
           - orangepi-5plus
           - indiedroid-nova
           - roc-rk3588s-pc
@@ -41,7 +42,7 @@ jobs:
           - nanopc-t6
           - blade3
           - h88k
-        CONFIGURATION: ${{ fromJSON(format('[{0}]', inputs.build-configs || '"Debug"')) }}
+        CONFIGURATION: ${{ fromJSON(format('[{0}]', inputs.build-configs || '"Release"')) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
