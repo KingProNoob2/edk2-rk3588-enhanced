@@ -14,7 +14,7 @@
 #
 ################################################################################
 [Defines]
-  PLATFORM_NAME                  = OrangePi5
+  PLATFORM_NAME                  = OrangePi5B
   PLATFORM_VENDOR                = OrangePi
   PLATFORM_GUID                  = e6443926-7196-4fc4-9554-91fc1fb34256
   PLATFORM_VERSION               = 0.2
@@ -58,7 +58,7 @@
   # SMBIOS platform config
   gRockchipTokenSpaceGuid.PcdPlatformName|"Orange Pi 5"
   gRockchipTokenSpaceGuid.PcdPlatformVendorName|"Orange Pi"
-  gRockchipTokenSpaceGuid.PcdFamilyName|"Orange Pi 5"
+  gRockchipTokenSpaceGuid.PcdFamilyName|"Orange Pi 5B"
   gRockchipTokenSpaceGuid.PcdProductUrl|"http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html"
   gRockchipTokenSpaceGuid.PcdDeviceTreeName|"rk3588s-orangepi-5"
 
