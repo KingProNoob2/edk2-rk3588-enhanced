@@ -11,7 +11,7 @@
 
   # Device Tree Support
   FILE FREEFORM = gDtPlatformDefaultDtbFileGuid {
-    SECTION RAW = Platform/Rockchip/DeviceTree/rk3588s-orangepi-5.dtb
+    SECTION RAW = Platform/Rockchip/DeviceTree/rk3588s-orangepi-5b.dtb
   }
 
   # Splash screen logo
