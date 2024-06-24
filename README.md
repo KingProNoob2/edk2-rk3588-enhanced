@@ -1,5 +1,5 @@
 # EDK2 UEFI firmware for Rockchip RK3588 platforms
-This repository contains an UEFI firmware implementation based on EDK2 for various RK3588 boards.
+This repository contains an UEFI firmware implementation based on EDK2 for various RK3588 boards. Compared to upstream, i added support for the Orange Pi 5B and set the default CPU speed to maximum.
 
 # Supported platforms
 - [Radxa ROCK 5B](https://radxa.com/products/rock5/5b/)
