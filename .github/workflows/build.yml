@@ -30,6 +30,7 @@ jobs:
           - orangepi-5b
           - orangepi-5plus
           - indiedroid-nova
+          - fydetab-duo
           - roc-rk3588s-pc
           - itx-3588j
           - aio-3588q
