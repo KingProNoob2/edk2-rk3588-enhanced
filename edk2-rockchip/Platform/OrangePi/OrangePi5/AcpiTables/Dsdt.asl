@@ -31,7 +31,7 @@ DefinitionBlock ("Dsdt.aml", "DSDT", 2, "RKCP  ", "RK3588  ", 2)
 
     include ("Pcie.asl")
     include ("Sata.asl")
-    // include ("Emmc.asl")
+    include ("Emmc.asl")
     include ("Sdhc.asl")
     include ("Dma.asl")
     include ("Gmac1.asl")
